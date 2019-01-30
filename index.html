@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular JS</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+
+    <!-- Local scripts -->
+    <script src="js/scripts.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/mapsController.js"></script>
+    <script src="js/mapsDirective.js"></script>
+    <script src="js/mapsService.js"></script>
+  </head>
+
+  <body ng-controller="mapsController">
+
+    <h1>Maps</h1>
+
+    <ul>
+      <li ng-repeat="place in places"
+          ng-mouseover="search($event)"
+          data="{{place}}"> {{place}}
+      </li>
+    </ul>
+
+    <maps-directive/>
+
+  </body>
+</html>
