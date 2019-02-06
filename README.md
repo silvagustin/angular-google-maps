@@ -9,7 +9,7 @@ This app integrates:
 ![](https://i.imgur.com/DMu5nOp.png)
 
 ### When cursor is over one of the elements from the list, Places API searchs it and updates Maps
-![](https://i.imgur.com/FDJgbo7.png)
+![](https://media.giphy.com/media/4QERff6mPqXBKzaLB8/giphy.gif)
 
 ## To run the app properly you must:
 
